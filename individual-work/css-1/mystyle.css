@@ -1,19 +1,19 @@
 h1 {
-    color: orange;
+    color: #ffa500;
     font-size: 30;
     font-style: bold;
     text-align: center;
 }
 
 p {
-    color: rgb(15, 15, 175);
+    color: #00FF00;
     font-size: 16;
     font-style: normal;
     text-align: center;
 }
 
 h2 {
-    color: green;
+    color: #00f;
     font-size: 25;
     border-width: 600;
 }
