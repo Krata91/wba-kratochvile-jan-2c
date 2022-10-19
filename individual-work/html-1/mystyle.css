@@ -1,0 +1,18 @@
+h1 {
+    color: orange;
+    font-size: 30;
+    font-style: bold;
+}
+
+p {
+    color: blue;
+    font-size: 16;
+    font-style: normal;
+}
+
+h2 {
+    color: green;
+    font-size: 25;
+    border-width: 600;
+}
+
