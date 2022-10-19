@@ -7,6 +7,18 @@
     <title>Honzíkova cesta</title>
 </head>
 <body>
-    <h1></h1>
+    <h1>Nadpis1</h1>
+    <h2>Nadpis2</h2>
+    <h3>Nadpis3</h3>
+    <h4>Nadpis4</h4>
+    <h5>Nadpis5</h5>
+    <h6>Nadpis6</h6>
+
+    <p>Aliquam ornare wisi eu metus. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</p>
+<p>Nullam at arcu a est sollicitudin euismod</p>
+
+<a href = "https://ssps.cz" target="_blank">Stránky školy</a>
+
+<img src="kafe.jpg">
 </body>
 </html>
