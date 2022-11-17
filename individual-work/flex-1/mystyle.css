@@ -1,27 +1,30 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .header{
     display: flex;
     flex-direction: row;
-    row-gap: 20px;
-
+    row-gap: 2px;
+    justify-content: space-between;
     background-color: rgba(37,33,64,1);
     text-align: center;
-    width: 100%;
+    width: 1400px;
     height: 130px;
-    justify-items: left;
+    align-items: center;
 }
 
 body
 {
     background-image: url('cosmic.jpg');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 0; 
-    width: 100%;
- 
+    width: 500px;
+    height: auto;
+    
 }
 .logo{
     width: 250px;
@@ -29,7 +32,25 @@ body
     
 }
 
+.nabidka{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    justify-items: right;
+    width: 50px;
+    height: 50px;
+}
+
+
 .text{
+    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -37,13 +58,22 @@ body
     background-color: white;
     border-radius: 30px;
     width: 42rem;
-    height: 12rem;
+    height: 8.5rem;
     padding: 25px;
-    column-gap: 20px;
+    column-gap: 15px;
     margin-top: 50%;
-    margin-left: 50%;
+    margin-left: 68%;
     margin-bottom: 50%;
     flex-wrap: nowrap;
+    -webkit-box-shadow:0px 0px 32px 9px rgba(255,255,255,0.82);
+    -moz-box-shadow: 0px 0px 32px 9px rgba(255,255,255,0.82);
+    box-shadow: 0px 0px 32px 9px rgba(255,255,255,0.82);
     
 }
+
+.nadpis{
+    font-style: italic;
+    font-weight: bold;
+}
+
 
