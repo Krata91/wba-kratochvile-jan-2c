@@ -3,8 +3,8 @@ body {
 }
 
 .header-logo img {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
 }
 
 .container {
@@ -16,6 +16,9 @@ body {
 
 .header {
   display: flex;
+  position: sticky;
+  top: 0;
+  background-color: white;
   flex-direction: row;
   justify-content: space-around;
   margin: 20px;
