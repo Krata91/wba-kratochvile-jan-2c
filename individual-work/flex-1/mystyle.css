@@ -8,9 +8,9 @@ html{
     flex-direction: row;
     justify-content: space-between;
     background-color: rgba(37,33,64,1);
-    width: auto;
+    width: 1500px;
     height: 80px;
-    margin: 12px;
+    
     align-items: center;
 }
 
