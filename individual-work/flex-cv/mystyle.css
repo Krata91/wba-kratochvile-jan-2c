@@ -1,0 +1,21 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: absolute;
+    padding: 20px;
+    justify-content: center;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.item{
+    background-color: blue;
+    padding: 20px;
+}
+
+.item1{
+    background-color: aqua;
+    padding: 20px;
+}
