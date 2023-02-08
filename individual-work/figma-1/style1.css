@@ -1,0 +1,86 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  margin: 0px;
+}
+
+.bar div:first-child {
+    background-color: #7C7474;
+    padding: 15px;
+}
+
+
+.header .header-logo img{
+    width: 150px;
+    height: 150px;
+}
+
+.hero-section {
+    background-color: rgba(124, 116, 116, 0.309);
+    font-size: 12px;
+}
+
+.hero-section .hero-img img{
+    width: 100%;
+    height: 100%;
+    position: sticky;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: #CBC1B1;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 150px;
+  width: 100%;
+}
+
+.headline-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img {
+  position: relative;
+}
+
+.hero-img img {
+  width: 300px;
+  height: 200px;
+  z-index: 2;
+  position: relative;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 100;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 450px;
+}
