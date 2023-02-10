@@ -77,18 +77,16 @@ body {
   color: #F8F7EC;
   width: 172px;
   height: 55px;
-  bottom: 30px;
   align-items: center;
   justify-items: center;
   justify-content: center;
+  margin-bottom: 80px;
+  margin-left: 640px;
 }
 
 .nadpis{
   font-size: 42px;
-}
-
-.nadpis1 {
-  margin-top: 20px;
+  
 }
 
 .textdov {
@@ -109,23 +107,23 @@ body {
   align-items: center;
 }
 
+.grid-item-1 {
+  grid-column: span 3;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   margin-top: 20px;
   margin-bottom: 30px;
-  height: 633px;
+  height: 663px;
   width: 1116px;
   justify-content: center;
   justify-items: center;
   align-items: center;
   margin-left: 180px;
   margin-right: 160px;
-}
-
-.grid-item-1 {
-  grid-column: span 3;
 }
 
 .podnab {
