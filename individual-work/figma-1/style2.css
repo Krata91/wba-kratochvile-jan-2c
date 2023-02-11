@@ -54,29 +54,20 @@ body {
     z-index: 2;
     position: relative;
   }
-  
-  .hero-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: #f2b880; 
-    align-items: center;
-    border-radius: 30px;
-    width: 800px;
-    height: 250px;
-    padding: 30px;
-    margin-top: 15px;
-    gap: 40px;
-  }
 
   .container {
     display: grid;
+    place-items: center;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2px;
     height: 312px;
     width: 1114px;
+    margin-bottom: 70px;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    margin-left: 180px;
+    margin-right: 160px;
   }
 
   .grid-item {
@@ -88,8 +79,8 @@ body {
   }
 
   .grid-item-1 {
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
   }
 
   .podnab {
@@ -101,6 +92,6 @@ body {
     justify-content: center;
     justify-items: center;
     align-items: center;
-    position: fixed;
+    position: absolute;
     bottom: 0;
   }
