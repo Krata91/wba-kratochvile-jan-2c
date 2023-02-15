@@ -57,17 +57,11 @@ body {
 
   .container {
     display: grid;
-    place-items: center;
+    margin: 0 auto;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2px;
-    height: 312px;
-    width: 1114px;
-    margin-bottom: 70px;
-    justify-content: center;
     justify-items: center;
+    justify-content: center;
     align-items: center;
-    margin-left: 180px;
-    margin-right: 160px;
   }
 
   .grid-item {
@@ -92,6 +86,6 @@ body {
     justify-content: center;
     justify-items: center;
     align-items: center;
-    position: absolute;
+    position: relative;
     bottom: 0;
   }

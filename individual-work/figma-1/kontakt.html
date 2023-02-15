@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style3.css">
+    <link rel="reset" href="reset.css">
 </head>
 <body>
     <header class="header">
@@ -19,7 +20,11 @@
         </nav>
     </header>
     <div class="container">
-        <h1 class="grid-item-1"><b>KONTAKT</b></h1>
+        <h1 class="grid-item-1">
+            <div class="contact">
+                <b>KONTAKT</b>
+            </div>
+        </h1>
         <div class="grid-item">
             <p>Jméno</p>
         </div>
@@ -32,12 +37,13 @@
         <div class="grid-item">
             <p>Telefon</p>
         </div>
-        <div class="grid-item grid-item-2">
-            <p>Vaše zpráva</p>
+        <div class="grid-item-2">
+            <textarea name="text2" id="text2" cols="" rows="8">Vaše zpráva</textarea>
         </div>
-        <div class="grid-item-3">
-            <p>ODESLAT</p>
-        </div>
+        
+    </div>
+    <div class="grid-item-3">
+        <p id="odeslat">ODESLAT</p>
     </div>
     <div class="podnab">
         <div a="#">OBCHODNÍ PODMÍNKY</div>
