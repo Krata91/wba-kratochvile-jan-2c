@@ -125,3 +125,70 @@ body {
     position: relative;
     bottom: 0;
   }
+
+  @media (max-width: 1600px) {
+
+    .burger{
+      display: none;
+    }
+
+  }
+
+  @media (max-width: 550px){
+
+    .bar div:last-child{
+      background-color: #CBC1B1;
+    }
+    .hero-section {
+      background-color: none;
+    }
+        .burger {
+          display: flex;
+        }
+  
+      .item {
+        display: none;
+      }
+  
+      .container {
+      display: grid;
+      margin: auto;
+      grid-template-columns: repeat(1, 1fr);
+      justify-content: center;
+      align-items: center;
+      grid-gap: 8px;
+      height: auto;
+      width: 80vw;
+      margin-bottom: 70px;
+      font-size: 18px;
+      }
+      
+      .contact{
+        font-size: 20px;
+      }
+  
+      .grid-item {
+        grid-column: 4 span;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        
+      }
+  
+      .grid-item-1{
+        font-size: 18px;
+      }
+  
+        .podnab {
+          display: flex;
+          flex-direction: column;
+          width: 100vw;
+          height: 100px;
+          background-color: #CBC1B1;
+          justify-content: center;
+          justify-items: center;
+          align-items: center;
+          position: relative;
+          bottom: 0;
+        }
+  }
