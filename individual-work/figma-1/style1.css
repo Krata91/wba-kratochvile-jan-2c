@@ -54,8 +54,8 @@ body {
   background-color: rgba(124, 116, 116, 0.309);
   color: #F8F7EC;
   font-size: 24px;
-  right: 30px;
   bottom: 30px;
+  right: 30px;
   align-items: center;
   justify-items: center;
 }
@@ -152,23 +152,64 @@ body {
     display: flex;
     place-items: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     justify-items: center;
     align-items: center;
     background-color: #E5E5E5;
   }
-      .ikona {
-        display: grid;
-        justify-content: center;
+
+  .hero-section {
+     display: grid;
+        justify-content: space-between;
         font-size: 14px;
-        width: auto;
-        height: auto;
-        padding: 20px;
+        width: 80%;
+        height: 280px;
+        padding: 8px;
+        margin: auto;
+        
+        align-items: center;
+        justify-items: center;
+        place-items: center;
+        position: relative;
+        margin-top: px;
+    }
+
+    .textdov {
+      display: grid;
+        justify-content: space-between;
+        font-size: 14px;
+        width: 80%;
+        padding: 8px;
+        margin: auto;
         background-color: #7C7474;
         align-items: center;
         justify-items: center;
         place-items: center;
         position: relative;
+        margin-top: 80px;
+    }
+      .ikona {
+        display: grid;
+        justify-content: space-between;
+        font-size: 14px;
+        width: auto;
+        height: auto;
+        padding: 20px;
+        right: 0px;
+        margin: auto;
+        background-color: #7C7474;
+        align-items: center;
+        justify-items: center;
+        place-items: center;
+        position: relative;
+        margin-top: 80px;
+      }
+
+      .button1 {
+        margin-top: 50px;
+        -webkit-box-shadow: 0px 0px 7px 9px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 7px 9px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 7px 9px rgba(0,0,0,0.75);
       }
 
       .flaska {
