@@ -16,6 +16,10 @@ body {
       height: 150px;
   }
   
+  .napis {
+    padding: 40px;
+  }
+
    .burger{
     display: none;
    }
