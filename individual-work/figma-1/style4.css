@@ -53,11 +53,20 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    background-color: rgba(124, 116, 116, 0.309);
     font-size: 24px;
     bottom: 30px;
     align-items: center;
     justify-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .textdov {
+    padding: 50px;
+  }
+
+  .hero-section{
+    background-color:#CBC1B1;
   }
   
   .button1 {
@@ -86,7 +95,8 @@ body {
     align-items: center;
     justify-items: center;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
+    margin-top: 80px;
   }
   
   .nadpis{
