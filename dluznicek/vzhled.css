@@ -1,0 +1,27 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+}
+
+
+.nav {
+	background-color: #333;
+	color: #fff;
+	font-size: 28px;
+	height: auto;
+    width: 100vw;
+    margin: auto;
+	display: flex;
+	justify-content: center;
+    justify-items: center;
+	align-items: center;
+}
+
+h1 {
+	margin: 8px;
+}
+
+.js {
+    display: grid;
+    
+}
