@@ -3,16 +3,17 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 300px;
-    height: 150px;
+    width: 900px;
+    height: auto;
   
     img {
-      width: 100px;
-      height: 50px;
+      width: 300px;
+      height: 190px;
       margin: 0;
+      opacity: 0.3;
   
       &:hover {
-        outline: 2px solid red;
+        opacity: 10;
       }
     }
   }
@@ -20,7 +21,8 @@
   .obal {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     justify-items: center;
+    margin-top: 50px;
   }
   

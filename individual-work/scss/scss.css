@@ -3,26 +3,23 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 906px;
+  width: 900px;
   height: auto;
-  gap: 2px;
 }
 .container img {
   width: 300px;
-  height: 150px;
+  height: 190px;
   margin: 0;
-  opacity: 0.4;
+  opacity: 0.3;
 }
 .container img:hover {
   opacity: 10;
-  z-index: 3px;
 }
 
 .obal {
   display: flex;
   flex-direction: row;
-  margin-top: 100px;
   justify-content: center;
   justify-items: center;
-  align-items: center;
+  margin-top: 50px;
 }/*# sourceMappingURL=scss.css.map */
