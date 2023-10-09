@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 18px;
   margin: 0px;
   background-color: #E5E5E5;
@@ -12,11 +12,10 @@ body {
 
 @media only screen and (max-width: 1600px) {
   .header .header-logo img{
-    width: 150px;
-    height: 150px;
+    font-size: 24px;
 }
 
-.obal {
+.bar1 {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -35,7 +34,7 @@ body {
   display: flex;
   position: relative;
   top: 0;
-  background-color: #CBC1B1;
+  background-color: #fc68ad;
   flex-direction: row;
   justify-content: space-around;
   height: 150px;
